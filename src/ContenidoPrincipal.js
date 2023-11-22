@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import './styles.css';
 
 const ContenidoPrincipal = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,11 +11,11 @@ const ContenidoPrincipal = () => {
 
   const containerStyle = {
     display: 'flex',
-    flexDirection: 'column',
+    flexDirection: 'row',
+    minHeight: '100vh',
     alignItems: 'center',
     justifyContent: 'center',
-    minHeight: '100vh',
-    padding: '250px',
+    padding: '50px',
     background: '#7B68EE',
   };
 
@@ -100,19 +101,21 @@ const ContenidoPrincipal = () => {
 
   const contentContainerStyle = {
     flex: '1',
-    padding: '20px',
+    padding: '10px',
     position: 'relative',
     marginTop: '30px',
+    justifyContent: 'center',
   };
 
   const textContainerStyle = {
     background: 'rgba(255, 255, 255, 0.7)',
-    padding: '60px',
-    borderRadius: '253px',
+    padding: '25px',
+    borderRadius: '20px',
     fontSize: '1.5em',
     fontStyle: 'italic',
     textAlign: 'center',
     marginTop: '-200px',
+    lineHeight: '1.5',
   };
 
   return (
@@ -121,14 +124,14 @@ const ContenidoPrincipal = () => {
         ☰
       </span>
       <div style={menuContainerStyle}>
-        <Link to="/">
-          <button style={menuButton}>Inicio</button>
+        <Link to="/visual-sections">
+          <button style={menuButton}>¿Qué es?</button>
         </Link>
         <Link to="/contenido-principal">
           <button style={menuButton}>Antecedentes</button>
         </Link>
-        <Link to="/configuracion">
-          <button style={menuButton}>Configuración</button>
+        <Link to="/etapas">
+          <button style={menuButton}>Etapas</button>
         </Link>
         <div style={closeMenuButtonStyle} onClick={toggleMenu}>
           &#10005; Cerrar
@@ -140,8 +143,29 @@ const ContenidoPrincipal = () => {
           <div style={imageBackgroundStyle}></div>
         </div>
         <div style={textContainerStyle}>
-          <p>En este Blog podrás:</p>
-          <p>Descubrir cosas nuevas sobre Tecnología que te harán aprender lo más básico sobre esto</p>
+          <p>Historia</p>
+          <p>La historia de la tecnología comprende el recuento histórico del desarrollo del ser humano, a través de la creación y uso de herramientas 
+            y de técnicas que le han permitido atender propósitos prácticos.
+             Gracias a ellas ha podido transformar el mundo a su alrededor para hacerse la vida más sencilla.</p>
+          <p>Los avances tecnológicos son la consecuencia de la aplicación de la capacidad intelectual humana y de sus habilidades creativas. Por eso, 
+            la historia de la tecnología puede entenderse también como el recuento histórico del desarrollo de las capacidades del ser humano.</p>
+  
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <Link to="/etapas">
+            <button style={{ 
+              backgroundColor: '#7B68EE',  
+              color: 'white',  
+              border: 'none', 
+              padding: '10px 20px',  
+              borderRadius: '5px', 
+              cursor: 'pointer', 
+              margin: '2 auto',
+              display: 'block',
+                       }}>
+                  Ir a Descubrir
+            </button>
+          </Link>
+        </div>
         </div>
       </div>
     </div>
@@ -149,6 +173,3 @@ const ContenidoPrincipal = () => {
 };
 
 export default ContenidoPrincipal;
-
-
-

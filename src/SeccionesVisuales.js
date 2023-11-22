@@ -75,6 +75,7 @@ function SeccionesVisuales() {
     padding: '40px',
     position: 'relative',
     marginTop: '30px',
+    justifyContent: 'center',
 
   };
 
@@ -83,7 +84,7 @@ function SeccionesVisuales() {
     fontSize: '3em',
     fontStyle: 'italic',
     textAlign: 'center',
-    marginTop: '-50px',
+    marginTop: '-40px',
   };
 
   const textContainerStyle = {
@@ -94,6 +95,7 @@ function SeccionesVisuales() {
     fontStyle: 'italic',
     textAlign: 'center',
     marginTop: '-200px',
+    lineHeight: '1.5',
   };
 
   const imageBackgroundContainerStyle = {
@@ -107,8 +109,7 @@ function SeccionesVisuales() {
   
   const images = [
     'https://gabrielaaraya.weebly.com/uploads/2/8/2/8/28288873/8035169.jpg',
-    'https://media.licdn.com/dms/image/C5612AQG_7YHFjDykUQ/article-cover_image-shrink_720_1280/0/1619182170307?e=2147483647&v=beta&t=pPsAo09jtMGWE2YouHw6Zi0We8XvswwBZFW-sofJS6o',
-    
+
   ];
 
   const imagesContainerStyle = {
@@ -116,15 +117,15 @@ function SeccionesVisuales() {
     flexDirection: 'column',
     alignItems: 'center',
     marginTop: '20px',
+    marginBottom: '60px',
   };
 
-  const imageStyle = {
-    width: '100%',
-    maxWidth: '300px', 
-    marginBottom: '10px',
-    borderRadius: '8px',
-
-  };
+const imageStyle = {
+  width: '100%',
+  maxWidth: '300px', 
+  marginBottom: '40px', 
+  borderRadius: '8px',
+};
   
 
  
@@ -134,9 +135,9 @@ function SeccionesVisuales() {
         ☰
       </span>
       <div style={menuContainerStyle}>
-      <Link to="/">
+      <Link to="/visual-sections">
       <button style={menuButton}>
-        Inicio
+        ¿Qué es?
        </button>
        </Link>
 
@@ -146,9 +147,9 @@ function SeccionesVisuales() {
        </button>
         </Link>
         
-        <Link to="/configuracion">
+        <Link to="/etapas">
         <button style={menuButton}>
-         Configuración
+         Etapas
         </button>
         </Link>
 
@@ -167,14 +168,20 @@ function SeccionesVisuales() {
         </div>
         <div style={textContainerStyle}>
         <p><center>En este Blog podrás: </center></p>
-        <p><center>Descubrir cosas nuevas sobre Tecnología que te harán aprender lo mas básico sobre esto</center></p>
+        <p><center>Descubrir cosas nuevas sobre Tecnología que te harán aprender lo mas básico sobre ello</center></p>
+        <p><center>Desde sus inicios hasta lo que es el día de hoy. Además cuales fueron las revoluciones tecnológicas que han surgido.</center></p>
+        
         {images.map((imageUrl, index) => (
             <img key={index} src={imageUrl} alt={`Image ${index}`} style={imageStyle} />
           ))}
+        <p><center>Empecemos por:</center></p>
         <p><center>¿Qué es la Tecnología?</center></p>
-        <p><center>La tecnología es el conjunto de nociones y conocimientos científicos que el ser humano utiliza para lograr un objetivo preciso, que puede ser la solución 
-         de un problema especifico del individuo o la satisfacción de alguna de sus necesidades.</center></p>
-      
+        <p><center>La tecnología es la aplicación de los conocimientos científicos y de la comprensión del universo, a la resolución concreta 
+          y puntual de los problemas del ser humano. 
+          Esto significa crear, diseñar y mejorar bienes o servicios disponibles para facilitar la adaptación de la especie al medio ambiente 
+          y la satisfacción de sus deseos o necesidades físicas, sociales, culturales</center></p>
+
+          <img src="https://assets.puzzlefactory.pl/puzzle/338/795/original.jpg" alt="Descripción de la imagen" style={{ width: '100%', maxWidth: '300px', marginBottom: '20px', borderRadius: '8px' }} />
        
          <div style={{ display: 'flex', justifyContent: 'center' }}>
          <Link to="/contenido-principal">
