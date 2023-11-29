@@ -125,26 +125,34 @@ const Etapas = () => {
           ☰
         </span>
         <div style={menuContainerStyle}>
-          <Link to="/">
-            <button style={menuButton}>Inicio</button>
+          <Link to="/visual-sections">
+            <button style={menuButton}>Bienvenida</button>
           </Link>
           <Link to="/contenido-principal">
             <button style={menuButton}>Antecedentes</button>
           </Link>
-          <Link to="/configuracion">
-            <button style={menuButton}>Configuración</button>
+          <Link to="/etapas">
+            <button style={menuButton}>Etapas</button>
+          </Link>
+          <Link to="/infoPDF"> 
+          <button style={menuButton}>
+            Descarga PDF
+        </button>
+        </Link>
+          <Link to="/">
+            <button style={menuButton}>Inicio</button>
           </Link>
           <div style={closeMenuButtonStyle} onClick={toggleMenu}>
             &#10005; Cerrar
           </div>
         </div>
         <div style={contentContainerStyle}>
-          <h1 style={titleStyle}>Inicios de la Tecnología</h1>
+          <h1 style={titleStyle}>Etapas de la Tecnología</h1>
           <div style={imageBackgroundContainerStyle}>
             <div style={imageBackgroundStyle}></div>
           </div>
           <div style={textContainerStyle}>
-            <p>En este Blog podrás:</p>
+            <p>Las siguientes etapas comorenden el tiempo desde ..... hasta .....</p>
            
           
           <div style={{ display: 'flex', justifyContent: 'center' }}>

@@ -89,9 +89,9 @@ function SeccionesVisuales() {
 
   const textContainerStyle = {
     background: 'rgba(255, 255, 255, 0.7)',
-    padding: '25px',
-    borderRadius: '20px',
-    fontSize: '1.5em',
+    padding: '40px',
+   borderRadius: '40px',
+    fontSize: '1.6em',
     fontStyle: 'italic',
     textAlign: 'center',
     marginTop: '-200px',
@@ -137,7 +137,7 @@ const imageStyle = {
       <div style={menuContainerStyle}>
       <Link to="/visual-sections">
       <button style={menuButton}>
-        ¿Qué es?
+        Bienvenida
        </button>
        </Link>
 
@@ -152,6 +152,15 @@ const imageStyle = {
          Etapas
         </button>
         </Link>
+        <Link to="/infoPDF"> 
+          <button style={menuButton}>
+            Descarga PDF
+        </button>
+        </Link>
+
+        <Link to="/">
+            <button style={menuButton}>Inicio</button>
+          </Link>
 
         <div style={closeMenuButtonStyle} onClick={toggleMenu}>
           &#10005; Cerrar
