@@ -1,3 +1,29 @@
+# CAPTURAS
+![Inicio de Sesión en web](https://github.com/Karla1404/Proyecto_2/blob/main/Captura%20de%20pantalla%20(657).png)
+![Inicio en aplicación responsiva](https://github.com/Karla1404/Proyecto_2/blob/main/WhatsApp%20Image%202023-11-30%20at%2010.52.14%20PM.jpeg)
+![Página principal en web con menu hamburguesa](https://github.com/Karla1404/Proyecto_2/blob/main/Captura%20de%20pantalla%20(658).png)
+![Segunado módulo](https://github.com/Karla1404/Proyecto_2/blob/main/Captura%20de%20pantalla%20(660).png)
+![Segundo módulo responsiva](https://github.com/Karla1404/Proyecto_2/blob/main/WhatsApp%20Image%202023-11-30%20at%2010.52.14%20PM%20(1).jpeg)
+![Tercer módulo](https://github.com/Karla1404/Proyecto_2/blob/main/Captura%20de%20pantalla%20(661).png)
+![Tercer Módulo seg.Parte](https://github.com/Karla1404/Proyecto_2/blob/main/Captura%20de%20pantalla%20(662).png)
+![Tercer módulo seg,Parte responsiva](https://github.com/Karla1404/Proyecto_2/blob/main/WhatsApp%20Image%202023-11-30%20at%2010.52.14%20PM%20(2).jpeg)
+![Última parte tercer módulo]([screenshots/homepage.png](https://github.com/Karla1404/Proyecto_2/blob/main/Captura%20de%20pantalla%20(663).png))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
