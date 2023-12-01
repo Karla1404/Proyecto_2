@@ -152,11 +152,6 @@ const imageStyle = {
          Etapas
         </button>
         </Link>
-        <Link to="/infoPDF"> 
-          <button style={menuButton}>
-            Descarga PDF
-        </button>
-        </Link>
 
         <Link to="/">
             <button style={menuButton}>Inicio</button>
@@ -177,18 +172,18 @@ const imageStyle = {
         </div>
         <div style={textContainerStyle}>
         <p><center>En este Blog podrás: </center></p>
-        <p><center>Descubrir cosas nuevas sobre Tecnología que te harán aprender lo mas básico sobre ello</center></p>
-        <p><center>Desde sus inicios hasta lo que es el día de hoy. Además cuales fueron las revoluciones tecnológicas que han surgido.</center></p>
+        <p style={{ textAlign: 'justify' }}>Descubrir cosas nuevas sobre Tecnología que te harán aprender lo mas básico sobre ello.</p>
+        <p style={{ textAlign: 'justify' }}>Desde sus inicios hasta lo que es el día de hoy. Además cuales fueron las revoluciones tecnológicas que han surgido.</p>
         
         {images.map((imageUrl, index) => (
             <img key={index} src={imageUrl} alt={`Image ${index}`} style={imageStyle} />
           ))}
-        <p><center>Empecemos por:</center></p>
-        <p><center>¿Qué es la Tecnología?</center></p>
-        <p><center>La tecnología es la aplicación de los conocimientos científicos y de la comprensión del universo, a la resolución concreta 
+        <p style={{ textAlign: 'center' }}>Empecemos por:</p>
+        <p style={{ textAlign: 'center' }}>¿Qué es la Tecnología?</p>
+        <p style={{ textAlign: 'justify' }}>La tecnología es la aplicación de los conocimientos científicos y de la comprensión del universo, a la resolución concreta 
           y puntual de los problemas del ser humano. 
           Esto significa crear, diseñar y mejorar bienes o servicios disponibles para facilitar la adaptación de la especie al medio ambiente 
-          y la satisfacción de sus deseos o necesidades físicas, sociales, culturales</center></p>
+          y la satisfacción de sus deseos o necesidades físicas, sociales, culturales</p>
 
           <img src="https://assets.puzzlefactory.pl/puzzle/338/795/original.jpg" alt="Descripción de la imagen" style={{ width: '100%', maxWidth: '300px', marginBottom: '20px', borderRadius: '8px' }} />
        

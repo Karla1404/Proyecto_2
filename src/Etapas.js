@@ -171,11 +171,7 @@ const Etapas = () => {
           <Link to="/etapas">
             <button style={menuButton}>Etapas</button>
           </Link>
-          <Link to="/infoPDF"> 
-          <button style={menuButton}>
-            Descarga PDF
-        </button>
-        </Link>
+
           <Link to="/">
             <button style={menuButton}>Inicio</button>
           </Link>
@@ -207,16 +203,16 @@ const Etapas = () => {
         </table>
         <div style={textContainerStyle}>
         <h3 style={titleStyle2}>Prehistoria: fuego, herramientas y rueda:</h3>
-    <p>La evolución tecnológica comenzó hace 2,5 millones de años con los Homo habilis,
+    <p style={{ textAlign: 'justify' }}>La evolución tecnológica comenzó hace 2,5 millones de años con los Homo habilis,
       los primeros seres humanos que desarrollaron herramientas de piedra.
       La tecnología de ese período también incluyó:</p>
     <br />
-    <p>El uso del fuego:
-    <br />
-      El conocimiento de la creación y uso del fuego fue crucial para la sobrevivencia de los primeros humanos que salieron de África y se desplazaron a zonas más frías como Asia o Europa.
+    <h5 style={titleStyle2}>El uso del fuego:</h5>
+      <p style={{ textAlign: 'justify' }}>El conocimiento de la creación y uso del fuego fue crucial para la sobrevivencia de los primeros humanos que salieron de África y se desplazaron a zonas más frías como Asia o Europa.
       Esta tecnología les permitió comer alimentos cocidos y sobrevivir a las bajas temperaturas.</p>
       <br />
       <img src="https://qph.cf2.quoracdn.net/main-qimg-c71382421e37bb5a26f348593a5e8702-lq" alt="Descripción de la imagen" style={{ width: '100%', maxWidth: '300px', marginBottom: '20px', borderRadius: '8px' }} />
+     
      <p>Las primeras técnicas de agricultura:
      <br />
        Esto les permitió abandonar el estilo de vida nómada y convertirse en sedentarios, lo que repercutió en la formación de las primeras sociedades arcaicas.

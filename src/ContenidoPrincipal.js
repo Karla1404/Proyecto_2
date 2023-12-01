@@ -138,9 +138,7 @@ const ContenidoPrincipal = () => {
         <Link to="/etapas">
           <button style={menuButton}>Etapas</button>
         </Link>
-        <Link to="/infoPDF"> 
-          <button style={menuButton}>Descarga PDF</button>
-        </Link>
+
         <Link to="/">
             <button style={menuButton}>Inicio</button>
           </Link>
@@ -165,16 +163,16 @@ const ContenidoPrincipal = () => {
            borderRadius: '8px',
            }}
          />
-          <p>La historia de la tecnología comprende el recuento histórico del desarrollo del ser humano, a través de la creación y uso de herramientas 
+          <p style={{ textAlign: 'justify' }}>La historia de la tecnología comprende el recuento histórico del desarrollo del ser humano, a través de la creación y uso de herramientas 
             y de técnicas que le han permitido atender propósitos prácticos.
              Gracias a ellas ha podido transformar el mundo a su alrededor para hacerse la vida más sencilla.</p>
-          <p>Los avances tecnológicos son la consecuencia de la aplicación de la capacidad intelectual humana y de sus habilidades creativas. Por eso, 
+          <p style={{ textAlign: 'justify' }}>Los avances tecnológicos son la consecuencia de la aplicación de la capacidad intelectual humana y de sus habilidades creativas. Por eso, 
             la historia de la tecnología puede entenderse también como el recuento histórico del desarrollo de las capacidades del ser humano.</p>
-          <p>El origen e inicio de la tecnología se remonta a casi 4.9 millones de años atras cuando los seres vivos que vivían en aquel entonces 
+          <p style={{ textAlign: 'justify' }}>El origen e inicio de la tecnología se remonta a casi 4.9 millones de años atras cuando los seres vivos que vivían en aquel entonces 
             se veían envueltos en una feroz lucha por la supervivencia.</p>
             <img src="https://s-media-cache-ak0.pinimg.com/736x/ac/b0/a5/acb0a57e92dd6f21f12050863541f5e1.jpg" alt="Descripción de la imagen" style={{ width: '100%', maxWidth: '300px', marginBottom: '20px', borderRadius: '8px' }} />
             
-          <p>Entre ellos estaba el hombre primitivo, peludo, con poca razón y mucha fuerza. Y si bien por aquel entonces el humano era más mono que hombre en si, poco a poco fue 
+          <p style={{ textAlign: 'justify' }}>Entre ellos estaba el hombre primitivo, peludo, con poca razón y mucha fuerza. Y si bien por aquel entonces el humano era más mono que hombre en si, poco a poco fue 
             desarrollando su inteligencia para lograr alimentarse, cazar y hasta protegerse de las inclemencias del tiempo no mojarse cuando llovía o evitar el frío con pieles animales
 
            Con el correr del tiempo aprendió también sober que si plataba semillas de las frutas que comía, crecían árboles, nació entonces la agricultura. 
@@ -183,13 +181,13 @@ const ContenidoPrincipal = () => {
           También se dió cuenta que al pisar suelos con piedras o espinas sus pies se dañaban y sangraba, por lo que se las ingenió para recubrirlos con lo que hoy llamamos zapatos.</p>
           <img src="https://1.bp.blogspot.com/-LbYcsy9GSyA/Ugi10_jxAzI/AAAAAAAASLU/K4afJLyKZKs/s1600/roma-varios.jpg" alt="Descripción de la imagen" style={{ width: '100%', maxWidth: '300px', marginBottom: '20px', borderRadius: '8px' }} />
 
-          <p>Más adelante vió el potencial de la luz eléctrica con el fabuloso Thomas Alba Edison e inventó la luz eléctrica para alumbrar el mundo y las vidas de millones de personas.
+          <p style={{ textAlign: 'justify' }}>Más adelante vió el potencial de la luz eléctrica con el fabuloso Thomas Alba Edison e inventó la luz eléctrica para alumbrar el mundo y las vidas de millones de personas.
 
            Y llegó el día en que inventó la informática y computadoras para procesar la información de manera rápida y eficaz para evitar hacerlo a mano.</p>
 
            <img src="https://image.slidesharecdn.com/diapositivasjuan-170505011627/95/historial-del-el-computador-5-638.jpg?cb=1493946999" alt="Descripción de la imagen" style={{ width: '100%', maxWidth: '300px', marginBottom: '20px', borderRadius: '8px' }} />
 
-           <p>Es decir, la tecnología es lo que ha ayudado al hombre a mejorar la calidad de vida a través de la historia, lo ha ayudado a concretar cada uno de sus deseos y necesidades, 
+           <p style={{ textAlign: 'justify' }}>Es decir, la tecnología es lo que ha ayudado al hombre a mejorar la calidad de vida a través de la historia, lo ha ayudado a concretar cada uno de sus deseos y necesidades, 
            desde cocinar, hasta volar, o comunicarse con otros seres alrededor del mundo.</p>
       
            <div style={{ display: 'flex', justifyContent: 'center' }}></div>
